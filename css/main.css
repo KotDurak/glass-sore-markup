@@ -18,6 +18,33 @@
 	src:url(../fonts/panton.otf);
 }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .slick-prev{
+  	left: -10px;
+  }
+  .slick-next{
+  	right: -10px;
+  }
+  
+}
+
 header{
 	padding-top: 55px;
 	padding-bottom: 45px;
@@ -196,6 +223,7 @@ header{
 .store-item{
 	border: 1px solid #eeebea;
 	border-radius: 25px;
+	overflow: hidden;
 }
 
 .top-attributes .heart{
@@ -213,4 +241,62 @@ header{
     line-height: 2.5em;
     border-radius: 10px;
     padding: 0 5px;
+}
+
+.store-item-header{
+	font-family: 'panton-bold';
+	font-size: 18px;
+	color: #604b3f;
+	margin:0 0 10px 0;
+}
+
+.store-image{
+	text-align: center;
+}
+
+.store-image > img{
+	display: inline-block;
+}
+
+.store-header-subinfo{
+	display: block;
+	color: #604b3f; 
+	font-size: 14px;
+}
+
+.main-price{
+	color:#604b3f;
+	display: block;
+	line-height: 1em;
+}
+
+.old-price{
+	font-family: 'panton';
+	font-size: 14px; 
+	display: block;
+	text-decoration: line-through;
+}
+
+.price-button{
+	background: #604b3f;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+
+.price-block{
+	padding-top:30px;
+}
+
+.price-block > .price-text{
+	padding-left: 0;
+}
+
+.price-button-text{
+	font-size: 14px; 
+	color: #ffffff;
+	font-family: 'panton';
+}
+
+.price-button-block{
+	padding-right: 0;
 }
