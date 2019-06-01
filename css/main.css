@@ -25,7 +25,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-  //CSS
+
   
 }
 
@@ -218,12 +218,16 @@ header{
 .store-content{
 	position: relative;
 	padding:10px 5px; 
+	border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #eeebea;
 }
 
 .store-item{
-	border: 1px solid #eeebea;
+/*	border: 1px solid #eeebea;
 	border-radius: 25px;
-	overflow: hidden;
+	overflow: hidden; */
+	margin-bottom: 10px;
 }
 
 .top-attributes .heart{
@@ -299,4 +303,105 @@ header{
 
 .price-button-block{
 	padding-right: 0;
+}
+
+.card-block{
+	margin-top: 22px;
+}
+
+.my-card > iframe{
+	max-width: 100%;
+}
+
+#footer{
+	background: #282b35;
+	padding-top: 60px;
+}
+
+.all-right-footer{
+	margin-top: 90px;
+}
+
+.company-name{
+	font-family: 'panton';
+	font-size: 12px; 
+	color:#8f93a2;
+	display: block;
+
+	line-height: 1.2em;
+}
+
+.footer-first-menu > ul{
+	list-style-type: none;
+}
+
+.footer-first-menu  li{
+	margin-bottom: 20px;
+}
+
+.footer-menu-item > a{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'panton';
+	font-size: 16.8px;
+}
+
+.footer-addresses  ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-addresses > ul > li > img{
+	display: block;
+	float: left;
+}
+
+.addr-desc{
+	float: left;
+	color: #ffffff;
+	font-family: 'panton-bold'; 
+	font-size: 16.8px;
+	margin-left: 10px;
+}
+
+.addr-desc > a{
+	color:#ffffff;
+}
+
+
+.footer-addresses > ul > li:first-child{
+	margin-bottom: 50px
+}
+
+.phone-block > ul{
+	margin-bottom: 0;
+}
+
+.phone-block > ul > li{
+	margin-bottom: 0 !important;
+}
+
+.phone-sub{
+	color:#8f93a2;
+	font-size: 12px; 
+	color:'panton';
+}
+
+.order-call{
+	color:#604b3f;
+	font-family: 'panton-bold';
+	text-decoration: none;
+	font-size: 14px; 
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #f3b96f;
+	margin-top:35px;
+	padding: 15px 45px;
+	border-radius: 5px;
+}
+
+.order-call:hover{
+	color:#604b3f !important;
+	text-decoration: none !important;
 }
