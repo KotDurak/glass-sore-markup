@@ -24,9 +24,15 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+   .custom-nav .navbar-nav{
+		float: none;
+		text-align: left;
+	}
 
-  
+	.custom-nav li{
+		float: none; 
+		display: block;
+	} 
 }
 
 /* 
@@ -42,9 +48,30 @@
   .slick-next{
   	right: -10px;
   }
+
+  .custom-nav .navbar-nav{
+		float: none;
+		text-align: left;
+ }
+
+ .custom-nav li{
+ 	float: none; 
+ 	display: block !important;
+ }
   
 }
 
+@media (min-width: 768px){
+	.custom-nav .navbar-nav{
+		float: none;
+		text-align: center;
+	}
+
+	.custom-nav li{
+		float: none; 
+		display: inline-block;
+	}
+}
 header{
 	padding-top: 55px;
 	padding-bottom: 45px;
@@ -125,6 +152,16 @@ header{
 
 .custom-nav{
     margin-top: 30px;
+}
+
+.custon-nav .navbar-nav{
+	float: none;
+	text-align: center;
+}
+
+.custom-nav li{
+	float: none;
+	display: inline-block;
 }
 
 .custom-nav li{
@@ -404,4 +441,17 @@ header{
 .order-call:hover{
 	color:#604b3f !important;
 	text-decoration: none !important;
+}
+
+.main-catalog{
+	cursor: pointer;
+}
+
+.catalog > a{
+	display: block !important;
+	position: relative;
+}
+
+.catlog >a:hover .dropdown-menu{
+	display: block !important;
 }

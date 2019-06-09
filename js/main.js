@@ -31,4 +31,22 @@ $(function(){
 	     }
 		]
 	  });
+	var D_custom_nav = $('.custom-nav');	
+	$('.main-catalog').on('click', function(event){
+		$('.custom-nav').toggle();
+	});
+
+	$(window).on('scroll', function(event){
+		D_custom_nav.hide();
+	});
+
+	$('.catalog').on('mouseover', function(event){
+		var D_elem = $(this);
+		D_elem.find('.dropdown-menu').show();
+	});
+
+	$('.catalog').on('mouseout', function(event){
+		var D_elem = $(this);
+		D_elem.find('.dropdown-menu').hide();
+	});
 });
